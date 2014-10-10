@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+  <af:document title="panelFormLayout.jsf" id="d1">
+    <af:form id="f1">
+      <af:panelHeader text="Sign Up" id="ph1">
+        <f:facet name="context"/>
+        <f:facet name="menuBar"/>
+        <f:facet name="toolbar"/>
+        <f:facet name="legend"/>
+        <f:facet name="info"/>
+        <af:spacer width="10" height="10" id="s3"/>
+        <af:panelFormLayout id="pfl1">
+          <f:facet name="footer"/>
+          <af:inputText label="Full name" id="it1" columns="40"/>
+          <af:inputText label="Email" id="it2" columns="40"/>
+          <af:panelLabelAndMessage label="Birthday" id="plam1">
+            <af:panelGroupLayout id="pgl1" layout="horizontal">
+              <af:selectOneChoice id="soc1" label="Month" simple="true" value="0">
+                <af:selectItem label="Month" id="si13" value="0"/>
+                <af:selectItem label="Jan" value="1" id="si1"/>
+                <af:selectItem label="Feb" value="2" id="si2"/>
+                <af:selectItem label="Mar" value="3" id="si3"/>
+                <af:selectItem label="Apr" value="4" id="si4"/>
+                <af:selectItem label="May" value="5" id="si5"/>
+                <af:selectItem label="Jun" value="6" id="si6"/>
+                <af:selectItem label="Jul" value="7" id="si7"/>
+                <af:selectItem label="Aug" value="8" id="si8"/>
+                <af:selectItem label="Sep" value="9" id="si9"/>
+                <af:selectItem label="Oct" value="10" id="si10"/>
+                <af:selectItem label="Nov" value="11" id="si11"/>
+                <af:selectItem label="Dec" value="12" id="si12"/>
+              </af:selectOneChoice>
+              <af:selectOneChoice label="Day" value="0" id="soc2" simple="true">
+                <af:selectItem label="Day" value="0" id="si14"/>
+                <af:selectItem label="1" value="1" id="si15"/>
+                <af:selectItem label="2" value="2" id="si16"/>
+                <af:selectItem label="3" value="3" id="si17"/>
+                <af:selectItem label="4" value="4" id="si18"/>
+                <af:selectItem label="5" value="5" id="si19"/>
+                <af:selectItem label="6" value="6" id="si20"/>
+                <af:selectItem label="7" value="7" id="si21"/>
+                <af:selectItem label="8" value="8" id="si22"/>
+                <af:selectItem label="9" value="9" id="si23"/>
+                <af:selectItem label="10" value="10" id="si24"/>
+                <af:selectItem label="11" value="11" id="si25"/>
+                <af:selectItem label="12" value="12" id="si26"/>
+                <af:selectItem label="13" value="13" id="si27"/>
+                <af:selectItem label="14" value="14" id="si28"/>
+                <af:selectItem label="15" value="15" id="si29"/>
+                <af:selectItem label="16" value="16" id="si30"/>
+                <af:selectItem label="17" value="17" id="si31"/>
+                <af:selectItem label="18" value="18" id="si32"/>
+                <af:selectItem label="19" value="19" id="si33"/>
+                <af:selectItem label="20" value="20" id="si34"/>
+                <af:selectItem label="21" value="21" id="si35"/>
+                <af:selectItem label="22" value="22" id="si36"/>
+                <af:selectItem label="23" value="23" id="si37"/>
+                <af:selectItem label="24" value="24" id="si38"/>
+                <af:selectItem label="25" value="25" id="si39"/>
+                <af:selectItem label="26" value="26" id="si40"/>
+                <af:selectItem label="27" value="27" id="si41"/>
+                <af:selectItem label="28" value="28" id="si42"/>
+                <af:selectItem label="29" value="29" id="si43"/>
+                <af:selectItem label="30" value="30" id="si44"/>
+                <af:selectItem label="31" value="31" id="si45"/>
+              </af:selectOneChoice>
+              <af:selectOneChoice label="Year" value="0" id="soc3" simple="true">
+                <af:selectItem label="Year" value="0" id="si46"/>
+                <af:selectItem label="2000" value="2000" id="si47"/>
+                <af:selectItem label="2001" value="2001" id="si48"/>
+                <af:selectItem label="2002" value="2002" id="si49"/>
+                <af:selectItem label="2003" value="2003" id="si50"/>
+                <af:selectItem label="2004" value="2004" id="si51"/>
+                <af:selectItem label="2005" value="2005" id="si52"/>
+                <af:selectItem label="2006" value="2006" id="si53"/>
+                <af:selectItem label="2007" value="2007" id="si54"/>
+                <af:selectItem label="2008" value="2008" id="si55"/>
+                <af:selectItem label="2009" value="2009" id="si56"/>
+                <af:selectItem label="2010" value="2010" id="si57"/>
+                <af:selectItem label="2011" value="2011" id="si58"/>
+                <af:selectItem label="2012" value="2012" id="si59"/>
+              </af:selectOneChoice>
+            </af:panelGroupLayout>
+          </af:panelLabelAndMessage>
+          <af:spacer width="10" height="10" id="s1"/>
+          <af:outputText value="By clicking Sign Up, you agree to our Terms." id="ot1" inlineStyle="width: 200px;"
+                         styleClass="AFInstructionText"/>
+          <af:spacer width="10" height="10" id="s2"/>
+          <af:button text="Sign Up" id="b1"/>
+        </af:panelFormLayout>
+      </af:panelHeader>
+    </af:form>
+  </af:document>
+</f:view>
