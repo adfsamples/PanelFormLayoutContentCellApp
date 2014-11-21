@@ -13,4 +13,9 @@ hs_err_pid*
 
 # JDeveloper Files
 .data/
+.wlsjsps/
+temp/
 classes/
+deploy/
+javadoc/
+cwallet.sso.lck
